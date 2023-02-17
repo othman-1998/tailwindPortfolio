@@ -25,7 +25,7 @@ const handleHover = function(e, opacity) {
   };
   
   // when hover over a link in NAV => every thing other than the link should be faded out / get a opacity 0.5
-  nav.addEventListener('mouseover', handleHover.bind(0.2));
+  nav.addEventListener('mouseover', handleHover.bind(0.4));
   
   // when mouse out => whole nav elements should be back to opacity 1
   nav.addEventListener('mouseout', handleHover.bind(1));
